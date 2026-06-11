@@ -22,7 +22,7 @@ const LandingSection = () => (
     {/* zIndex keeps content above the RunicBackground overlay */}
     <VStack spacing={6} zIndex={1}>
       {/* Avatar with grayscale filter applied via CSS */}
-      <Avatar size="2xl" src="/ruan.png" sx={{ filter: "grayscale(100%)" }} />
+      <Avatar size="2xl" src={`${process.env.PUBLIC_URL}/ruan.png`} sx={{ filter: "grayscale(100%)" }} />
       <Heading as="h1" size="lg" textAlign="center">
         {greeting}
       </Heading>

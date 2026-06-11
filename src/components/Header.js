@@ -13,7 +13,7 @@ import { Box, HStack } from "@chakra-ui/react";
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto: rvanzyl67@gmail.com",
+    url: "mailto:rvanzyl67@gmail.com",
   },
   {
     icon: faGithub,
@@ -94,10 +94,10 @@ const Header = () => {
           {/* Right nav — internal page section links */}
           <nav>
             <HStack spacing={8}>
-              <a href="/#projects-section" onClick={handleClick("projects")}>
+              <a href="#projects-section" onClick={handleClick("projects")}>
                 Projects
               </a>
-              <a href="/#contactme-section" onClick={handleClick("contactme")}>
+              <a href="#contactme-section" onClick={handleClick("contactme")}>
                 Contact Me
               </a>
             </HStack>

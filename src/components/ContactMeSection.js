@@ -32,7 +32,7 @@ const LandingSection = () => {
     },
     // on valid submit, call the mock API with the form values
     onSubmit: (values) => {
-      submit("/#contactme-section", values);
+      submit("#contactme-section", values);
     },
     // Yup schema — each field is required, email must be a valid format
     validationSchema: Yup.object({
