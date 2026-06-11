@@ -2,7 +2,7 @@
   "name": "graded-assessment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{USERNAME}.github.io/{REPO}",
+  "homepage": "https://Damaged-hero.github.io/PortFolio",
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
